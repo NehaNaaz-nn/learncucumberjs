@@ -1,24 +1,19 @@
 [
   {
-    "description": "   Feature Description: Trying to launch Browser",
+    "description": "Feature description : Applying different calculator operators",
     "keyword": "Feature",
-    "name": "Test Protractor BrowserLaunch",
+    "name": "Test Multiple Operators of a calculator",
     "line": 1,
-    "id": "test-protractor-browserlaunch",
+    "id": "test-multiple-operators-of-a-calculator",
     "tags": [],
-    "uri": "lib\\protractorCucumber\\tsScripts\\features\\firstProtractor.feature",
+    "uri": "lib\\protractorCucumber\\tsScripts\\features\\Multiple_Calculator_Operator.feature",
     "elements": [
       {
-        "id": "test-protractor-browserlaunch;perform-sum-of-numbers-with-calculator",
+        "id": "test-multiple-operators-of-a-calculator;perform-sum-of-numbers-with-calculator",
         "keyword": "Scenario",
         "line": 6,
         "name": "Perform Sum of Numbers with Calculator",
-        "tags": [
-          {
-            "name": "@ProtractorTest",
-            "line": 5
-          }
-        ],
+        "tags": [],
         "type": "scenario",
         "steps": [
           {
@@ -27,24 +22,37 @@
             "line": 7,
             "name": "Super Calculator Website is opened browser",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:4"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 3970000000
+              "duration": 2446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Title is Super Calculator",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 9,
-            "name": "Enter number 6 in First Box",
+            "name": "Enter number 6 in First Box for addition",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:18"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 1272000000
+              "duration": 1064000000
             }
           },
           {
@@ -53,48 +61,402 @@
             "line": 10,
             "name": "Select plus operator from dropdown",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:29"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:33"
             },
             "result": {
               "status": "passed",
-              "duration": 162000000
+              "duration": 8000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "Enter number 20 in Second Box",
+            "name": "Enter number 20 in Second Box for addition",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:35"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:39"
             },
             "result": {
               "status": "passed",
-              "duration": 1192000000
+              "duration": 1136000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 12,
-            "name": "Click Go button",
+            "name": "Clicked Go button in addition block",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:42"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:45"
             },
             "result": {
               "status": "passed",
-              "duration": 108000000
+              "duration": 3049000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Answer Displayed is 26",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3027000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-multiple-operators-of-a-calculator;perform-subtraction-of-two-numbers-in-calculator",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Perform subtraction of two numbers in Calculator",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "Enter number 10 in the first Box for subtraction",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4068000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Select minus operator from dropdown",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Enter number 5 in the Second Box for subtraction",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1078000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Clicked on Go button in subtraction block",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3039000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Result 5 is Displayed",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3020000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-multiple-operators-of-a-calculator;find-percentage-of-two-numbers-in-calculator",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "find percentage of two numbers in Calculator",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "Enter number 20 in the first Box for percentage",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4041000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "Select percentage operator from dropdown",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:115"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "Enter number 100 in the Second Box for percentage",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "Clicked on Go button in percentage block",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:128"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4045000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Result 20 is Displayed",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:136"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3048000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
             },
             "result": {
               "status": "passed",
               "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-multiple-operators-of-a-calculator;perform-multiplication-of-two-numbers-in-calculator",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Perform multiplication of two numbers in Calculator",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "Enter number 12 in the first Box for multiplication",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:147"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4087000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "Select multiplication operator from dropdown",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:156"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2008000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "Enter number 12 in the Second Box for multiplication",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "Clicked on Go button in multiplication block",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Result 144 is Displayed",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-multiple-operators-of-a-calculator;perform-division-of-two-numbers-in-calculator",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Perform division of two numbers in Calculator",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "Enter number 18 in the first Box for division",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:188"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "Select divide operator from dropdown",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:198"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2007000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Enter number 2 in the Second Box for division",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:204"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "Clicked on Go button in division block",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:211"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4034000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Result 9 is Displayed",
+            "match": {
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:219"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3025000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
             }
           }
         ]
