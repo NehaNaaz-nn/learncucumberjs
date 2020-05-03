@@ -14,7 +14,7 @@ export let config: Config =
   
     // Spec patterns are relative to this directory.
     specs: [
-      '../features/firstProtractor.feature'
+      '../features/Multiple_Calculator_Operator.feature'
     ],
     
     cucumberOpts: {
