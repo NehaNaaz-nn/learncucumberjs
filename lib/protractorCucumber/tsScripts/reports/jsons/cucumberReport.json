@@ -22,11 +22,11 @@
             "line": 7,
             "name": "Super Calculator Website is opened browser",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:7"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:5"
             },
             "result": {
               "status": "passed",
-              "duration": 2446000000
+              "duration": 2999000000
             }
           },
           {
@@ -35,11 +35,11 @@
             "line": 8,
             "name": "Title is Super Calculator",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:16"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 38000000
             }
           },
           {
@@ -48,11 +48,11 @@
             "line": 9,
             "name": "Enter number 6 in First Box for addition",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:24"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 1064000000
+              "duration": 1066000000
             }
           },
           {
@@ -61,11 +61,11 @@
             "line": 10,
             "name": "Select plus operator from dropdown",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:33"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 1172000000
             }
           },
           {
@@ -74,11 +74,11 @@
             "line": 11,
             "name": "Enter number 20 in Second Box for addition",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:39"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 1136000000
+              "duration": 1093000000
             }
           },
           {
@@ -87,11 +87,11 @@
             "line": 12,
             "name": "Clicked Go button in addition block",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:45"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 3049000000
+              "duration": 4055000000
             }
           },
           {
@@ -100,11 +100,11 @@
             "line": 13,
             "name": "Answer Displayed is 26",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:54"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:49"
             },
             "result": {
               "status": "passed",
-              "duration": 3027000000
+              "duration": 51000000
             }
           },
           {
@@ -114,7 +114,8 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -133,11 +134,11 @@
             "line": 16,
             "name": "Enter number 10 in the first Box for subtraction",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:64"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:56"
             },
             "result": {
               "status": "passed",
-              "duration": 4068000000
+              "duration": 4044000000
             }
           },
           {
@@ -146,11 +147,11 @@
             "line": 17,
             "name": "Select minus operator from dropdown",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:73"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:65"
             },
             "result": {
               "status": "passed",
-              "duration": 2003000000
+              "duration": 3131000000
             }
           },
           {
@@ -159,11 +160,11 @@
             "line": 18,
             "name": "Enter number 5 in the Second Box for subtraction",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:79"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:71"
             },
             "result": {
               "status": "passed",
-              "duration": 1078000000
+              "duration": 2086000000
             }
           },
           {
@@ -172,11 +173,11 @@
             "line": 19,
             "name": "Clicked on Go button in subtraction block",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:86"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:78"
             },
             "result": {
               "status": "passed",
-              "duration": 3039000000
+              "duration": 4050000000
             }
           },
           {
@@ -185,11 +186,11 @@
             "line": 20,
             "name": "Result 5 is Displayed",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:95"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:86"
             },
             "result": {
               "status": "passed",
-              "duration": 3020000000
+              "duration": 27000000
             }
           },
           {
@@ -218,11 +219,11 @@
             "line": 23,
             "name": "Enter number 20 in the first Box for percentage",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:106"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:98"
             },
             "result": {
               "status": "passed",
-              "duration": 4041000000
+              "duration": 4064000000
             }
           },
           {
@@ -231,11 +232,11 @@
             "line": 24,
             "name": "Select percentage operator from dropdown",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:115"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:107"
             },
             "result": {
               "status": "passed",
-              "duration": 3006000000
+              "duration": 3130000000
             }
           },
           {
@@ -244,11 +245,11 @@
             "line": 25,
             "name": "Enter number 100 in the Second Box for percentage",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:121"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:113"
             },
             "result": {
               "status": "passed",
-              "duration": 2086000000
+              "duration": 2088000000
             }
           },
           {
@@ -257,11 +258,11 @@
             "line": 26,
             "name": "Clicked on Go button in percentage block",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:128"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:120"
             },
             "result": {
               "status": "passed",
-              "duration": 4045000000
+              "duration": 4032000000
             }
           },
           {
@@ -270,11 +271,11 @@
             "line": 27,
             "name": "Result 20 is Displayed",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:136"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:128"
             },
             "result": {
               "status": "passed",
-              "duration": 3048000000
+              "duration": 25000000
             }
           },
           {
@@ -284,8 +285,7 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -304,11 +304,11 @@
             "line": 30,
             "name": "Enter number 12 in the first Box for multiplication",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:147"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:138"
             },
             "result": {
               "status": "passed",
-              "duration": 4087000000
+              "duration": 1040000000
             }
           },
           {
@@ -317,24 +317,24 @@
             "line": 31,
             "name": "Select multiplication operator from dropdown",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:156"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:147"
             },
             "result": {
               "status": "passed",
-              "duration": 2008000000
+              "duration": 3135000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 32,
-            "name": "Enter number 12 in the Second Box for multiplication",
+            "name": "Enter number 11 in the Second Box for multiplication",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:162"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:153"
             },
             "result": {
               "status": "passed",
-              "duration": 1088000000
+              "duration": 1117000000
             }
           },
           {
@@ -343,24 +343,20 @@
             "line": 33,
             "name": "Clicked on Go button in multiplication block",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:169"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:160"
             },
             "result": {
               "status": "passed",
-              "duration": 4033000000
+              "duration": 4040000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 34,
-            "name": "Result 144 is Displayed",
-            "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:177"
-            },
+            "name": "Result 121 is Displayed",
             "result": {
-              "status": "passed",
-              "duration": 29000000
+              "status": "undefined"
             }
           },
           {
@@ -370,8 +366,7 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -390,11 +385,11 @@
             "line": 37,
             "name": "Enter number 18 in the first Box for division",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:188"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:177"
             },
             "result": {
               "status": "passed",
-              "duration": 4074000000
+              "duration": 4072000000
             }
           },
           {
@@ -403,11 +398,11 @@
             "line": 38,
             "name": "Select divide operator from dropdown",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:198"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:186"
             },
             "result": {
               "status": "passed",
-              "duration": 2007000000
+              "duration": 3138000000
             }
           },
           {
@@ -416,11 +411,11 @@
             "line": 39,
             "name": "Enter number 2 in the Second Box for division",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:204"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:192"
             },
             "result": {
               "status": "passed",
-              "duration": 1104000000
+              "duration": 1090000000
             }
           },
           {
@@ -429,11 +424,11 @@
             "line": 40,
             "name": "Clicked on Go button in division block",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:211"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:199"
             },
             "result": {
               "status": "passed",
-              "duration": 4034000000
+              "duration": 4058000000
             }
           },
           {
@@ -442,11 +437,11 @@
             "line": 41,
             "name": "Result 9 is Displayed",
             "match": {
-              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\firstProtractor.steps.ts:219"
+              "location": "lib\\protractorCucumber\\tsScripts\\stepsDefinition\\Multiple_Calculator_Operator.steps.ts:207"
             },
             "result": {
               "status": "passed",
-              "duration": 3025000000
+              "duration": 39000000
             }
           },
           {

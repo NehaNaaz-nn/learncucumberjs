@@ -29,9 +29,9 @@ Feature description : Applying different calculator operators
         Scenario:Perform multiplication of two numbers in Calculator
              When Enter number 12 in the first Box for multiplication
              When Select multiplication operator from dropdown
-             When Enter number 12 in the Second Box for multiplication
+             When Enter number 11 in the Second Box for multiplication
              When Clicked on Go button in multiplication block
-             Then Result 144 is Displayed
+             Then Result 121 is Displayed
       
         Scenario:Perform division of two numbers in Calculator
              When Enter number 18 in the first Box for division

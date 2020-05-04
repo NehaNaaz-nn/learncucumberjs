@@ -21,7 +21,7 @@ export let config: Config =
       format:'json:./lib/protractorCucumber/tsScripts/reports/jsons/cucumberReport.json',
 
       require: [
-        './stepsDefinition/*.js'
+        './stepsDefinition/Multiple_Calculator_Operator.steps.js'
       ]
     }    
   };
