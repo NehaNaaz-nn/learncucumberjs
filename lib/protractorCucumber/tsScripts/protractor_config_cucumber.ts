@@ -14,14 +14,14 @@ export let config: Config =
   
     // Spec patterns are relative to this directory.
     specs: [
-      '../features/Multiple_Calculator_Operator.feature'
+      '../features/scenarioOutline.feature'
     ],
     
     cucumberOpts: {
       format:'json:./lib/protractorCucumber/tsScripts/reports/jsons/cucumberReport.json',
 
       require: [
-        './stepsDefinition/Multiple_Calculator_Operator.steps.js'
+        './stepsDefinition/*.js'
       ]
     }    
   };
